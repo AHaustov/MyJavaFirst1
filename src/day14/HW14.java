@@ -15,7 +15,30 @@ public class HW14 {
         split(6);
         floydsTriangle();
         split(7);
-        snowFlake(10);
+        //snowFlake(10);
+        snowflakeTwo(10);
+    }
+
+    private static void snowflakeTwo(int line) {
+        for (int i = 0; i <= 10; i++) {
+            String result = "";
+            for (int j = 0; j <= line; j++) {
+                if ((j == i || j + i == line) && j != line / 2) {
+                    result += "*";
+                } else if (j == line / 2) {
+                    result += "*";
+                } else {
+                    result += " ";
+                }
+            }
+            if (i == line / 2) {
+                result= result.trim();
+                for (int j = 0; j < line; j++) {
+                    result+="*";
+                }
+            }
+            System.out.println(result);
+        }
     }
 
     private static void snowFlake(int a) {
@@ -46,7 +69,7 @@ public class HW14 {
         }
         System.out.println(resultMidline);
 
-        for (int i = a/2-1; i >=0 ; i--) { //Bottomlines
+        for (int i = a / 2 - 1; i >= 0; i--) { //Bottomlines
             String result = "";
             for (int j = 0; j < a / 2; j++) { //Leftside
                 if (j == i) {
