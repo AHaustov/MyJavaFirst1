@@ -16,12 +16,16 @@ public class MyLovelyRubelHW {
 
     private static String rightWordInRussian(int number) {
         String output = "";
-        String input = String.valueOf(number);
+       /* String input = String.valueOf(number);
         String lastSymbol = "" + input.charAt(input.length() - 1);
+        String lastTwoSymbol = "" + input.charAt(input.length() - 2) + input.charAt(input.length() - 1);
         int lastDigit = Integer.parseInt(lastSymbol);
-        if (lastDigit == 1 && number != 11) {
+        int lastTwoDigit = Integer.parseInt(lastTwoSymbol);*/
+        int lastDigit = number % 10;
+        int lastTwoDigit = number % 100;
+        if (lastDigit == 1 && lastTwoDigit != 11) {
             output = "рубль";
-        } else if (lastDigit >= 5 || lastDigit == 0 || number > 10 && number < 15) {
+        } else if (lastDigit >= 5 || lastDigit == 0 || lastTwoDigit > 10 && lastTwoDigit < 15) {
             output = "рублей";
         } else {
             output = "рубля";
