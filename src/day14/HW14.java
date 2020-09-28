@@ -32,9 +32,9 @@ public class HW14 {
                 }
             }
             if (i == line / 2) {
-                result= result.trim();
+                result = result.trim();
                 for (int j = 0; j < line; j++) {
-                    result+="*";
+                    result += "*";
                 }
             }
             System.out.println(result);
