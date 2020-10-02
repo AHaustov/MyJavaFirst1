@@ -24,6 +24,7 @@ public class FliesenLeger {
         Scanner input = new Scanner(System.in);
         System.out.println("What is the Price of 1 Tile?");
         double priceTile = input.nextDouble();
+        input.close();
         return priceTile;
     }
 
@@ -43,28 +44,28 @@ public class FliesenLeger {
 
     private static double getMeRoomSideTwo() {
         Scanner input = new Scanner(System.in);
-        System.out.println("What is the first Sidelength of your Room?");
+        System.out.println("What is the first Sidelength of your Room in m?");
         double side1 = input.nextDouble();
         return side1;
     }
 
     private static double getMeRoomSideOne() {
         Scanner input = new Scanner(System.in);
-        System.out.println("What is the second Sidelength of your Room?");
+        System.out.println("What is the second Sidelength of your Room in m?");
         double side2 = input.nextDouble();
         return side2;
     }
 
     private static double getMeSideTileTwo() {
         Scanner input = new Scanner(System.in);
-        System.out.println("What is the second Sidelength of your Tile?");
+        System.out.println("What is the second Sidelength of your Tile in m?");
         double tile2 = input.nextDouble();
         return tile2;
     }
 
     private static double getMeSideTileOne() {
         Scanner input = new Scanner(System.in);
-        System.out.println("What is the first Sidelength of your Tile?");
+        System.out.println("What is the first Sidelength of your Tile in m?");
         double tile1 = input.nextDouble();
         return tile1;
     }

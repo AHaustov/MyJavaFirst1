@@ -13,7 +13,7 @@ public class RowOfBricks {
          * See also: Introduction to MakeBricks:*/
         System.out.println(makeBricks(3, 1, 8));// →true
         System.out.println(makeBricks(3, 1, 9));// →false
-        System.out.println(makeBricks(3, 2, 10));// →false
+        System.out.println(makeBricks(3, 2, 10));// →true
 
     }
 

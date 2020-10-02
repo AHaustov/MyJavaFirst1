@@ -5,9 +5,9 @@ public class ExerciseLogic18 {
         //System.out.println(makeBricks(3, 1, 8));// → true
         //System.out.println(makeBricks(3, 1, 9));// → false
         //System.out.println(makeBricks(3, 2, 10));// → true
-        System.out.println(prefixAgain("abXYabc", 1));// → true
-        System.out.println(prefixAgain("abXYabc", 2));// → true
-        System.out.println(prefixAgain("abXYabc", 3));// → false
+        //System.out.println(prefixAgain("abXYabc", 1));// → true
+        //System.out.println(prefixAgain("abXYabc", 2));// → true
+        //System.out.println(prefixAgain("abXYabc", 3));// → false
 
     }
 
