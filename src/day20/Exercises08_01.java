@@ -8,6 +8,8 @@ public class Exercises08_01 {
         int middle;
         int sum;
         System.out.println(average(arr));
+        System.out.println(minimal(arr));
+        System.out.println(maximal(arr));
     }
 
     private static double average(int[] input) {
