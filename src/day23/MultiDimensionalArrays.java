@@ -11,6 +11,16 @@ public class MultiDimensionalArrays {
 
     }
 
+    private static int sizeOf2DimIntArray(int[][] arri) {
+        int count = 0;
+        for (int i = 0; i < arri.length; i++) {
+            for (int j = 0; j < arri[i].length; j++) {
+                count++;
+            }
+        }
+        return count;
+    }
+
     private static void arrayFive() {
         int[][] example = {
                 {1},
@@ -25,6 +35,9 @@ public class MultiDimensionalArrays {
             }
             System.out.println();
         }
+        System.out.println("There is a total of: "
+                + sizeOf2DimIntArray(example)
+                + " numbers in this Array");
     }
 
     private static void arrayFour() {
@@ -40,6 +53,7 @@ public class MultiDimensionalArrays {
             }
             System.out.println();
         }
+
     }
 
     private static void anotherArray() {
