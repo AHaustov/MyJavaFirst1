@@ -1,0 +1,11 @@
+ZZ (Note: capitals) - Save and exit
+:q! - discard all changes, since the last save, and exit
+:w - save file but don't exit
+:wq - again, save and exit
+:x - again, save and exit
+G  (shift g) - move to the last line
+/ - search (n - next)
+i - insert text, edit mode. ECS to exit
+u - undo last action
+dd - delete the current line ( i mode not needed)
+Del - delete single character ( i mode not needed)   

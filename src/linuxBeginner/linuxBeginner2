@@ -1,0 +1,22 @@
+mkdir //creating dictionary
+mkdir -p // creating the whole path
+touch 1 2 3 // creating 1 and 2 and 3, spaces are required
+whoami // showing which user is working now
+export_file //exporting file of browserversion of linux
+date // actuel date of your system
+history | head -5 // is giving history of the first 5 lines
+history | tail // is giving history of the last 10 lines //without tail 10 is normal
+| grep <any piece of word> // is showing file , containing this piece of word
+wc -l // wc is wordcount -l shows the count of lines
+wc // is given count of lines /count of words and count of symbols
+env // is given out pirimenia
+PS1=   // you can change your output path of your terminal
+
+normal user
+privileged user
+super administrator // sudo super user do
+
+history > /tmp/history.txt //is giving history as text file
+date > /tmp/date.txt // is giving date ase text file
+> //is rewriting file
+>> // is adding line to given file
