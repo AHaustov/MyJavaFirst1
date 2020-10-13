@@ -1,0 +1,18 @@
+1.go to fork folder
+2.git status
+3.git remote -v
+4.copy url of MasterBranch
+5.git remote add upstream <copied url>
+6.git remote -v
+7.git checkout master
+8.git fetch upstream
+9.git rebase upstream/master master
+
+10.new fork
+11.git checkout -b <nameOfNewBranch>
+12.git add <place of just the homework>
+13.git commit -m "what you did"
+14.git push origin <nameOfNewBranch>
+15.on github create new pull request
+16.use #numberOfIssue in name or commentary to link pull request
+   to Issue

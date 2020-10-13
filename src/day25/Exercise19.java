@@ -13,7 +13,7 @@ public class Exercise19 {
     private static int countEvens(int[] even) {
         int output = 0;
         for (int i : even) {
-            if (even[i] % 2 == 0) {
+            if (i % 2 == 0) {
                 output ++;
             }
         }
