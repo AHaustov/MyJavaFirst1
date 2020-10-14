@@ -16,6 +16,8 @@ public class exercise14 {
                 return false;
             }
         }
-        return str.contains("*");
+        String outputStar = String.valueOf(star);
+       // return str.contains(outputStar);
+        return str.contains(""+star);
     }
 }
