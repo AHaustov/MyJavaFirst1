@@ -1,0 +1,6 @@
+Start
+Fr 16. Okt 15:19:12 CEST 2020
+total 12
+drwxr-xr-x 2  anton      anton       4096 Okt 16 15:21 .
+drwxr-xr-x 4  anton      anton       4096 Okt 16 15:20 ..
+-rw-rw-r-- 1 insertcoin insertcoin   36 Okt 16 15:19 start.txt

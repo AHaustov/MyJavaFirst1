@@ -1,0 +1,35 @@
+  607  mkdir -p /home/insertcoin/start
+  608  ls
+  609  touch start/1.txt
+  610  cd start
+  611  ls
+  612  start >> 1.txt
+  613  vim 1
+  614  vi 1
+  615  echo 1
+  616  concat 1
+  617  cat 1
+  618  date >> 1
+  619  cat 1
+  620  mkdir -p /opt/task
+  621  sudo mkdir /opt/task
+  622  mv /opt/task/start.txt
+  623  mv --help
+  624  mv 1 /opt/task/start.txt
+  625  sudo mv 1 /opt/task/start.txt
+  626  cd /opt/task/
+  627  ls
+  628  ls -la
+  629  ls -la | tail -8 >> start
+  630  ls -la | tail -8 >> start.txt
+  631  cat start
+  632  cat start.txt
+  633  vi start.txt
+  634  cat start.txt
+  635  history
+  636  history | tail -20 > history
+  637  cd /tmp
+  638  ls
+  639  mkdir history
+  640  cd history/
+  641  history | tail -35 > history.txt
