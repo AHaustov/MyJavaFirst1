@@ -19,13 +19,14 @@ public class MyLovelyDouble {
         return output;
     }
 
-    private static void printDoubleArray(double[] input) {
+    public static void printDoubleArray(double[] input) {
+        System.out.print("[ ");
         for (int i = 0; i < input.length; i++) {
             System.out.printf("%.2f", input[i]);
             if (i < input.length - 1) {
                 System.out.print(", ");
             }
         }
-        System.out.println();
+        System.out.println(" ]");
     }
 }
