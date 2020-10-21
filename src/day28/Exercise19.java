@@ -25,7 +25,7 @@ public class Exercise19 {
                 countFour++;
             }
         }
-        return !(countOne > 0 && countFour > 0);
+        return ! (countOne > 0 && countFour > 0);
     }
 
     private static int[] fizzArray(int input) {
