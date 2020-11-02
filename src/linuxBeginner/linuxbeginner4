@@ -1,0 +1,4 @@
+ssh-keygen
+ssh -i pathOfKey  AdressOfServer
+kill "processID"
+scp -i pathOfKey AdressofServer:file pathofdestination
