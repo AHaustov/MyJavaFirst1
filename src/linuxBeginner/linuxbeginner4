@@ -2,3 +2,4 @@ ssh-keygen
 ssh -i pathOfKey  AdressOfServer
 kill "processID"
 scp -i pathOfKey AdressofServer:file pathofdestination
+ec2-user@linux.telran-edu.de
