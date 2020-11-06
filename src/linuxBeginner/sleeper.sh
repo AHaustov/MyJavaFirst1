@@ -6,7 +6,6 @@ date +%H:%M:%S
  ps -ef | head -2
  #awk -F = {'print$2'} /etc/os-release | head  -1
  awk -F = '$1=="NAME" {print$2}' /etc/os-release 
-"Ubuntu"
  #sleep 5 
  sleep 1
 done 
