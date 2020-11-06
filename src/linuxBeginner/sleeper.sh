@@ -4,7 +4,7 @@ do
 date +%H:%M:%S 
  echo $run
  ps -ef | head -2
- awk {'print$1'} /etc/os-release | head  -1
+ awk -F = {'print$2'} /etc/os-release | head  -1
  #sleep 5 
  sleep 1
 done 
